@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+
+}
+header {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    color: white;
+}
+
+header img {
+    height: 120px;
+    width: 120px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+    color: white;
+}
+
+.titulo {
+    color: gray;
+    margin-left: 60px;
+}
+
+
+
+.box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 80px 40px 80px;
+}
+
+pre {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(190, 189, 189);
+    margin: 0 400px 0 60px;
+}
+
+footer {
+    display: flex;
+    background-color: blueviolet;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site_seletores_flexbox</title>
+    <link rel="stylesheet" href="site-seletores.css">
+</head>
+<body>
+    <header>
+        <img src="logo-css.png" alt="logo-css">
+        <div>
+            <h1>Seletores Flexbox</h1>
+            <h3>Um site feito por um aluno para explicar seletores no Flexbox.</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#universal">Universal</a></li>
+                <li><a href="#tipo">Tipo</a></li>
+                <li><a href="#classe">Classe</a></li>
+                <li><a href="#id">ID</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2> O que é um seletor CSS? </h2>
+        <div class="box">
+        <p>Um seletor CSS é uma expressão que define quais elementos HTML serão estilizados por uma regra CSS.</p>
+        <pre>
+            <code>
+                p {
+                color: blue;
+                }
+            </code>
+        </pre>
+        <p>Aqui: <br>
+        p = seletor. Ele seleciona todas as tags do HTML
+        </p>
+        </div>
+
+        <h2>Tipos de seletores CSS</h2>
+
+        <h3 class="titulo" id="universal">Seletor Universal</h3>
+        <div class="box">
+        <p>O seletor universal é representado pelo asterisco (*) e seleciona todos os elementos do documento.</p>
+        <pre>
+            <code>
+                * {
+                margin: 0;
+                }
+            </code>
+        </pre>
+        </div>
+        
+        <h3 class="titulo" id="tipo">Seletor de Tipo (ou elemento)</h3>
+        <div class="box">
+        <p>O seletor de tipo seleciona elementos com base no nome da tag HTML. </p>
+        <pre>
+            <code>
+                p {
+                color: red;
+                }
+            </code>
+        </pre>
+        <p>Aqui: Aplica em todos os <code>h1</code> do HTML</p>
+        </div>
+
+        <h3 class="titulo" id="classe">Seletor de Classe</h3>
+        <div class="box">
+        <p>Seleciona elementos com uma classe específica. </p>
+        <pre>
+            <code>
+                .destaque {
+                background-color: yellow;
+                }
+            </code>
+        </pre>
+        <p>Utiliza um "." antes do nome no css para identificar.</p>
+        </div>
+
+        <h3 class="titulo" id="id">Seletor de ID</h3>
+        <div class="box">
+        <p>Seleciona um elemento com ID específico (único). </p>
+        <pre>
+            <code>
+                #menu {
+                background-color: gray;
+                }
+            </code>
+        </pre>
+        <p>Utiliza um "#" antes do nome no css para identificar. <br> Deve ser único na página.</p>
+        </div>
+
+        <footer>
+        <p>Site criado por: <strong>Nicolas Pohl</strong></p>
+
+        </footer>
+
+    </main>
+</body>
+</html>
